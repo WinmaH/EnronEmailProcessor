@@ -236,7 +236,7 @@ public class EnronDataLoader extends Thread {
 
 
                 String jsonMEssage = "{\"event\":"+jsonObject.toJSONString()+"}";
-                System.out.println("print -------------------- "+jsonMEssage);
+//                System.out.println("print -------------------- "+jsonMEssage);
 
                 try {
                     KafkaMessageSender.runProducer(jsonMEssage.toString(),producer);
