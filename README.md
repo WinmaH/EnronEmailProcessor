@@ -1,9 +1,9 @@
 # EnronEmailProcessor
 
 - Build command
+```
 mvn clean install -Dcheckstyle.skip=true -Dfindbugs.skip=true
-
-
+```
 - Download and build the repo
 https://github.com/miyurud/EmailProcessor_Siddhi
 
@@ -23,4 +23,7 @@ https://github.com/WinmaH/EnronEmailProcessor
 
 https://drive.google.com/open?id=1GAKeSC6xPZ39sT6nvLrvwVt6RRWUdcw5
 
-- Run the producer sh run-loader.sh
+- Run the producer 
+```
+sh run-loader.sh
+```
